@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+    tools:context=".QuizActivity">
+
+    <ImageView
+        android:id="@+id/image_question"
+        android:layout_width="355dp"
+        android:layout_height="199dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+    <TextView
+        android:id="@+id/text_view_question_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question: 1/x"
+        android:textColor="@android:color/black"
+        android:freezesText="true"/>
+
+    <TextView
+        android:id="@+id/text_view_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="00:30"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:freezesText="true"/>
+
+    <TextView
+        android:id="@+id/text_view_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Question hard and you need a think about it oolololodgofgodfgjofdog"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:freezesText="true"
+        android:layout_below="@+id/image_question"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_question"
+        >
+
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:id="@+id/radio_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:freezesText="true"/>
+
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:id="@+id/radio_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:freezesText="true"/>
+
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:id="@+id/radio_btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 3"
+            android:freezesText="true"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_confirm_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:text="confirm"
+        android:freezesText="true"/>
+
+</RelativeLayout>

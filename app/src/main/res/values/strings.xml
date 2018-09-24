@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AwersomeQuiz</string>
+
+    <string-array name="result_liar">
+        <item>поздравляю ты врун</item>
+        <item>молодесс</item>
+        <item>красава</item>
+        <item>врун то какой</item>
+        <item>ты не честный недочеловек</item>
+        <item>что ты мать твою такое?</item>
+        <item>ты простой какой-то</item>
+        <item>ничего нового ты обычный</item>
+        <item>где твоя фантазия?</item>
+        <item>Тест на iq</item>
+        <item>Тест на беременность</item>
+        <item>Тест на что-то</item>
+    </string-array>
+
+
+</resources>
